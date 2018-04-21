@@ -2,24 +2,16 @@
 
 > A FHIR packager app prototype to test vue.js Electron development
 
-#### Build Setup
+#### Reproduction steps
 
 ``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:9080
-npm run dev
+    yarn
+    yarn run dev
+    Ctrl O
+    Select https://transfer.sh/4QtUv/hl7.core.tgz to import, observe it imports OK the first time
+    Select the same file to import again a few times - observe how the application's performance significantly degrades to an unacceptable level
 
-# build electron application for production
-npm run build
-
-# run unit & end-to-end tests
-npm test
-
-
-# lint all JS/Vue component files in `src/`
-npm run lint
 
 ```
 
